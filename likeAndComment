@@ -1,0 +1,21 @@
+
+// comment schema
+
+{
+  id: ObjectId,
+  postId: ObjectId,         
+  userId: ObjectId,          
+  content: String,           
+  createdAt: Date,           
+  updatedAt: Date            
+}
+
+
+// likes schema
+
+{
+  id: ObjectId,
+  postId: ObjectId,          
+  userId: ObjectId,          
+  createdAt: Date            
+}
